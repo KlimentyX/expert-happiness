@@ -1,5 +1,14 @@
 # React SPA template with Webpack 5
 
+## Stack:
+- zod, Apollo Client, React Hook Form, react-i18next, sass + css modules
+
+## Features:
+- ui kit
+- microfrontend architecture powered by fsd
+- internationalization
+- theming
+
 ## Todo:
 -   PurgeCSS plugin
 -   CompressionWebpackPlugin
@@ -8,7 +17,7 @@
 -   Move webpack configs to separate folder
 -   Add tests to ci config
 
-## Available scripts
+## Available scripts:
 
 -   `npm run lint:css`
 -   `npm run lint:ts`
