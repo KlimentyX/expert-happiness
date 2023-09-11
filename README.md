@@ -1,7 +1,7 @@
 # React SPA template with Webpack 5
 
 ## Stack:
-- zod, Apollo Client, React Hook Form, react-i18next, sass + css modules
+- zod / React Hook Form, Apollo Client, react-i18next, sass + css modules
 
 ## Features:
 - ui kit
@@ -10,12 +10,11 @@
 - theming
 
 ## Todo:
+-   Adjust dependabot settings for automatic version updates 
 -   PurgeCSS plugin
 -   CompressionWebpackPlugin
 -   ImageMinimizerWebpackPlugin
--   Add classnames library
 -   Move webpack configs to separate folder
--   Add tests to ci config
 
 ## Available scripts:
 
