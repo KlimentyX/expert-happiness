@@ -1,0 +1,21 @@
+name: 'CI'
+
+on: ['push']
+
+jobs:
+    lint:
+        name: Linting
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+            - name: Setup node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18.12.1
+            - name: Install
+              run: npm install
+            - name: Lint CSS
+              run: npm run lint:css
+            - name: Lint TS
+              run: npm run lint:ts
