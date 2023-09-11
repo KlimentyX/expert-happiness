@@ -1,4 +1,4 @@
-# Процесс ревью кода в Хэдхантере
+# Процесс ревью кода
 
 <!-- generate-toc start -->
 <!-- См. https://github.com/hhru/frontend/blob/master/utils/generate-toc.js -->
