@@ -1,5 +1,5 @@
 # React SPA template with Webpack 5
-
+test
 ## Stack:
 - zod / React Hook Form, Apollo Client, react-i18next, sass + css modules
 
