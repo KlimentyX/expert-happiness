@@ -20,7 +20,8 @@
 - theming
 
 ## Todo:
--   Adjust dependabot settings for automatic version updates 
+-   Adjust dependabot settings for automatic version updates
+-   Add Storybook
 -   PurgeCSS plugin
 -   CompressionWebpackPlugin
 -   ImageMinimizerWebpackPlugin
