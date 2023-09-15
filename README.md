@@ -25,6 +25,7 @@
 -   CompressionWebpackPlugin
 -   ImageMinimizerWebpackPlugin
 -   Move webpack configs to separate folder
+-   Add StoryBook
 
 ## Available scripts:
 
