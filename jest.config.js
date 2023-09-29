@@ -1,11 +1,8 @@
-/** @type {import('ts-jest').JestConfigWithTsJest} */
-
-module.exports = {
-	preset: 'ts-jest',
+export default {
 	testEnvironment: 'jest-environment-jsdom',
 	moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
 	transform: {
-		'^.+\\.(ts|tsx)$': 'ts-jest',
+		'^.+\\.tsx?$': '@swc/jest',
 	},
 	setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
 	bail: 0,

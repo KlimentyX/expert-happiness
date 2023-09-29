@@ -1,0 +1,10 @@
+{
+	"extends": "@tsconfig/strictest/tsconfig.json",
+	"compilerOptions": {
+		"module": "CommonJS",
+		"removeComments": true,
+		"target": "ES2015",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true
+	}
+}
