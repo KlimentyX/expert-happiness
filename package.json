@@ -20,8 +20,7 @@
 		"webpack:validate": "webpack configtest",
 		"format": "prettier --check -w --cache .",
 		"prepare": "husky install",
-		"ts:check": "tsc",
-		"pre-push": "concurrently \"yarn test\" \"yarn format\""
+		"ts:check": "tsc"
 	},
 	"devDependencies": {
 		"@fullhuman/postcss-purgecss": "5.0.0",
