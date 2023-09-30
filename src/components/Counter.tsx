@@ -5,8 +5,10 @@ export const Counter: React.FC = () => {
 
 	return (
 		<div>
-			<p onClick={() => setCount(prev => prev + 1)}>Count: {count}</p>
-			Example component <span>Hello</span>
+			<p data-qa='text' onClick={() => setCount(prev => prev + 1)}>
+				Count: {count}
+			</p>
+			Example component
 		</div>
 	)
 }
