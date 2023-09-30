@@ -1,57 +1,8 @@
 {
+	"extends": "@tsconfig/strictest/tsconfig.json",
 	"compilerOptions": {
-		"incremental": true,
-		"composite": false,
-		"tsBuildInfoFile": "./dist/.tsbuildinfo",
-
-		"target": "ES5",
 		"lib": ["dom", "ESNext"],
-		"experimentalDecorators": true,
-		"jsx": "react-jsx",
-
-		"module": "ESNext",
-		"rootDir": ".",
-		"moduleResolution": "node",
-		"baseUrl": "./",
-
-		"allowJs": true,
-		"checkJs": false,
-		"maxNodeModuleJsDepth": 0,
-
-		"declaration": false,
-		"outDir": "./dist",
-		"removeComments": true,
-		"importsNotUsedAsValues": "remove",
-		"noEmitOnError": true,
-		"sourceMap": true,
-
-		"forceConsistentCasingInFileNames": true,
-		"esModuleInterop": true,
-		"isolatedModules": true,
-		"allowSyntheticDefaultImports": true,
-
-		"strict": true,
-		"allowUnusedLabels": false,
-		"allowUnreachableCode": false,
-		"exactOptionalPropertyTypes": true,
-		"noFallthroughCasesInSwitch": true,
-		"noImplicitOverride": true,
-		"noImplicitReturns": true,
-		"noPropertyAccessFromIndexSignature": true,
-		"noUncheckedIndexedAccess": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-
-		"skipDefaultLibCheck": true,
-		"skipLibCheck": true,
-		"types": ["@types/aria-query", "jest", "@testing-library/jest-dom"]
-	},
-
-	"include": ["./src"],
-
-	"ts-node": {
-		"compilerOptions": {
-			"module": "CommonJS"
-		}
+		"noEmit": true,
+		"jsx": "react-jsx"
 	}
 }
